@@ -78,3 +78,16 @@ const adult = (birthDay) => {
     const dateDifference = new Date(birthDay.getUTCFullYear() + 18, birthDay.getUTCMonth(), birthDay.getUTCDate());
     return dateDifference <= currentDate
 }
+
+//Ten en cuenta
+//type, pattern, max/min-length, required y data-type
+//calidando input -> javascript (no vacio)
+//validando email -> type:email
+//validando password -> regex
+//validando date -> javascript (+18)
+//validando number -> regex
+//input.validity
+//OOP
+//new Date
+//event.target
+//addEventListener('blur',function(){})
